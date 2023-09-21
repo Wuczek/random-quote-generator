@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .responsive {
+    @apply w-11/12 sm:w-9/12 md:w-7/12;
+  }
+}
